@@ -13,4 +13,5 @@ data = response.json()
 
 for value in data["articles"]:
     ptitle = value['title']
-    print(ptitle)
+    pdescription = value['description']
+    print(ptitle,pdescription)
