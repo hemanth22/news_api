@@ -9,5 +9,8 @@ payload={}
 headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
+data = response.json()
 
-print(response.text)
+for value in data["articles"]:
+    ptitle = value['title']
+    print(ptitle)
