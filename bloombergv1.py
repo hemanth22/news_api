@@ -7,7 +7,8 @@ BLOOM_HOST = os.environ.get('BLOOM_HOST')
 
 url = "https://bloomberg-market-and-financial-news.p.rapidapi.com/market/auto-complete"
 
-querystring = {"query":"<REQUIRED>"}
+#querystring = {"query":"<REQUIRED>"}
+querystring = {"query":"INR"}
 
 headers = {
         "X-RapidAPI-Key": BLOOM_KEY,
