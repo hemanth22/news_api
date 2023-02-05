@@ -33,3 +33,12 @@ jobs:
       run: python3 news.py
       env:
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+
+    - name: bloomberg news api
+      run: python3 bloombergv1.py
+      env:
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        BLOOM_KEY: ${{ secrets.BLOOM_KEY }}
+        BLOOM_HOST: ${{ secrets.BLOOM_HOST }}
+        
+        
