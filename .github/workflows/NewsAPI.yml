@@ -40,5 +40,15 @@ jobs:
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         BLOOM_KEY: ${{ secrets.BLOOM_KEY }}
         BLOOM_HOST: ${{ secrets.BLOOM_HOST }}
-        
-        
+
+    - name: sleep for 120 seconds
+      run: |
+        echo "Sleep"
+        sleep 120
+
+    - name: required bloomberg news api
+      run: python3 bloombergv2.py
+      env:
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        BLOOM_KEY: ${{ secrets.BLOOM_KEY }}
+        BLOOM_HOST: ${{ secrets.BLOOM_HOST }}
