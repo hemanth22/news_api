@@ -46,6 +46,11 @@ jobs:
         echo "Sleep"
         sleep 120
 
+    - name: get date
+      run: |
+        echo "date"
+        date
+
     - name: required bloomberg news api
       run: python3 bloombergv2.py
       env:
