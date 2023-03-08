@@ -4,5 +4,3 @@ python program to parse json data and print news
 
 trigger news:
 
-- [x] bloomberg
-- [x] news api
