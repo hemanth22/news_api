@@ -9,7 +9,7 @@ API_KEY =  os.environ.get('NEWSDATA_IO_KEY')
 BASE_URL = 'https://newsdata.io/api/1/news'
 
 # Keywords to search
-keywords = ['SocGen', 'DBS', 'StanChart']
+keywords = ['socGen', 'DBS', 'StanChart']
 
 # Loop through keywords and query the API
 for keyword in keywords:
