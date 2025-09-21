@@ -9,8 +9,8 @@ API_KEY =  os.environ.get('GNEWS_IO_KEY')
 # Base URL
 BASE_URL = 'https://gnews.io/api/v4/search'
 
-#webhook_url = ""
-webhook_url = "http://localhost:8000/gnewswebhook"
+webhook_url = "https://fastapi-webhook-receiver.vercel.app/gnewswebhook"
+#webhook_url = "http://localhost:8000/gnewswebhook"
 
 # Keywords to search
 keywords = ['socgen', 'dbs', 'stanchart']
