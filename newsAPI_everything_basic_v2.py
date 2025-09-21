@@ -11,10 +11,10 @@ base_url = 'https://newsapi.org/v2/'
 endpoint = 'everything'
 
 # Define list of countries
-queries = ['USD', 'SGD', 'INR']
+queries = ['USD', 'socgen', 'dbs', 'stanchart']
 
 # Define webhook url
-webhook_url = "http://localhost:8000/newsapiwebhook"
+webhook_url = "https://fastapi-webhook-receiver.vercel.app/newsapiwebhook"
 
 for query in queries:
     print("News Country: ",f"{query}","\n")
