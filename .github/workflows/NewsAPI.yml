@@ -33,3 +33,8 @@ jobs:
       run: python3 newsAPI_everything_basic_v2.py
       env:
         NEWSAPI_ORG_KEY: ${{ secrets.NEWSAPI_ORG_KEY }}
+
+    - name: GNewsAPI script
+      run: python3 gnews.py
+      env:
+        GNEWS_IO_KEY: ${{ secrets.GNEWS_IO_KEY }}
