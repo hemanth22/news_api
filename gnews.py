@@ -13,7 +13,7 @@ webhook_url = "https://fastapi-webhook-receiver.vercel.app/gnewswebhook"
 #webhook_url = "http://localhost:8000/gnewswebhook"
 
 # Keywords to search
-keywords = ['socgen', 'dbs', 'stanchart']
+keywords = ['bescom']
 
 # Loop through keywords and query the API
 for keyword in keywords:
